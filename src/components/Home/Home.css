@@ -2,7 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full viewport height */
+    height: 100vh;
+    position: relative; /* Enables absolute positioning of the overlay */
+    width: 100%; /* Full viewport height */
   }
   
   .image-slider img {
@@ -11,3 +13,26 @@
     object-fit: cover; /* Ensures the image covers the area without distortion */
     border-radius: 10px; /* Optional, for rounded corners */
   }
+.text-overlay1 {
+    position: absolute; /* Position relative to the image slider */
+    top: 30%; /* Centers text vertically */
+    left: 50%; /* Centers text horizontally */
+    transform: translate(-50%, -50%); /* Offsets the position to center it */
+    color: rgba(255, 255, 255, 0.818); /* Text color */
+    font-size: 58px; 
+    text-align: center; /* Center align text */
+    text-shadow: 4px 4px 6px rgba(53, 52, 52, 0.7);
+    text-transform: uppercase; /* Optional: adds shadow for better readability */
+}
+.text-overlay2 {
+  position: absolute; /* Position relative to the image slider */
+  top: 40%; /* Centers text vertically */
+  left: 50%; /* Centers text horizontally */
+  transform: translate(-50%, -50%); /* Offsets the position to center it */
+  color: white; /* Text color */
+  font-size: 110px; 
+  text-align: center; /* Center align text */
+  text-shadow: 8px 8px 12px rgba(53, 52, 52, 0.7); 
+  text-transform: uppercase;/* Optional: adds shadow for better readability */
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

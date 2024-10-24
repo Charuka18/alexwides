@@ -1,0 +1,21 @@
+.image-alex {
+    position: relative; /* Enables absolute positioning of the overlay */
+    width: 100%; /* Adjust as necessary */
+    height: auto; /* Adjust as necessary */
+}
+
+.image-alex img {
+    width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.text-alex {
+    position: absolute; /* Position relative to the image slider */
+    top: 50%; /* Centers text vertically */
+    left: 50%; /* Centers text horizontally */
+    transform: translate(-50%, -50%); /* Offsets the position to center it */
+    color: rgb(230, 27, 27); /* Text color */
+    font-size: 2rem; /* Adjust font size as needed */
+    text-align: center; /* Center align text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: adds shadow for better readability */
+}
