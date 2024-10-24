@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 .header{
     display: flex;
     justify-content:baseline;
@@ -7,6 +10,15 @@
     width: 10rem;
     height: 5rem;
     
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;          /* Initial color */
+}
+
+a:hover {
+    color: var(--orange);  /* Change color on hover */
 }
 .header-menu{
     list-style: none;

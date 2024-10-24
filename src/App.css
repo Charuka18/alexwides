@@ -39,3 +39,70 @@
 .btn:hover{
   cursor: pointer;
 }
+/*@media (max-width: 1328px) {
+
+  .header__title{
+    font-size: 1rem;
+  }
+  .header__link,
+  .header__btn{
+    font-size: 0.8rem;
+  }
+}
+
+
+@media (max-width: 925px) {  
+  .header {
+  justify-content: space-between;
+  align-items: center;
+  }
+  .header_title-container,
+  .header_menu,
+  .header_btn-container {
+  flex: 0 1 auto;
+  }
+  .header_title {
+  font-size: 1.3rem;
+  }
+  .header_menu,
+  .header_btn-container {
+  display: none;
+  }
+  .header_sun {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  }}
+  */
+  /* Desktop */
+@media (min-width: 1024px) {
+  .header,
+  .logo,
+  .header-menu,
+  .image-slider,
+  .image-slider img {
+    width: 100%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1024px) and (min-width: 768px) {
+  .header,
+  .logo,
+  .header-menu,
+  .image-slider,
+  .image-slider img {
+    width: 90%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .header,
+  .logo,
+  .header-menu,
+  .image-slider,
+  .image-slider img {
+    width: 100%;
+  }
+}
