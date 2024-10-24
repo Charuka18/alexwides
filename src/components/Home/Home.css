@@ -1,0 +1,13 @@
+.image-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .image-slider img {
+    width: 100%;
+    height: 50rem;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 10px; /* Optional, for rounded corners */
+  }
